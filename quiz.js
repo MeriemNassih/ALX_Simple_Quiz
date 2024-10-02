@@ -7,9 +7,9 @@ function checkAnswer() {
 
     // Compare the User’s Answer with the Correct Answer
     if (userAnswer === correctAnswer) {
-        document.getElementById("feedback").textContent = "Correct ! Bien joué.";
+        document.getElementById("feedback").textContent = "Correct! Well done.";
     } else {
-        document.getElementById("feedback").textContent = "C'est incorrect. Réessayez !";
+        document.getElementById("feedback").textContent = "That's incorrect. Try again!";
     }
 }
 
